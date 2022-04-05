@@ -1,8 +1,18 @@
-# Title
+# R_Place analysis
 
-Text under the title
+Currently only working for the 2017 officially released version of data, will update/do work with 2022 version when data becomes available.
+
+## Data description
+Single CSV file located in the Data folder. Currently utilizing Data/2017/tile_placements.csv, which has 5 columns. ts,user,x_coordinate,y_coordinate,color
+
+### Additional notes about data
+- Since color is in 0-15, used config file dictionary to redefine to their corresponding hex colors.
+- I think the (999,999) is the bottom left corner. This would imply graphing is - X / - Y coordinate space? (Have to actually graph to get a better understanding)
+- user is a just a hash value
+
+
 ## ToFix
-- [ ] Issue #1
+- [ ] layout of X / Y coordinates
 
 ## ToAdd
 - [ ] Example

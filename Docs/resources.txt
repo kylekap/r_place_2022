@@ -10,14 +10,12 @@ To create Virtual Environment:
 To Activate
     env\Scripts\activate
 
-
-To freeze requirements.txt
-    pip freeze > requirements.txt
-
-
 To Install Black (code formatting)
     pip install black
 
 
 To apply black
     py -m black [filename]
+
+To freeze requirements.txt
+    pip freeze > requirements.txt
